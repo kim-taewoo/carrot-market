@@ -29,6 +29,7 @@ npx prisma db push
 
 npx prisma studio
 
+// 서버쪽에서 사용
 npm i @prisma/client
 
 // node_modules 아래에 타입이 생성됨
