@@ -26,6 +26,10 @@ pscale connect carrot-market
 
 // 푸쉬
 npx prisma db push
+
+npx prisma studio
+
+npm i @prisma/client
 ```
 
 기존의 복잡한 DB 환경 세팅과 달리 CLI 명령어로 간단히 보안 터널을 통해 PlanetScale과 컴퓨터를 연결할 수 있다. (pscale connect [dbname])
